@@ -13,7 +13,7 @@ body {
     padding: 10px;
     /* background-color: #333; */
     color: #fff;
-    margin-left: 28vh;
+    margin-left: 25vh;
     
 }
 
@@ -47,16 +47,26 @@ body {
 .navbar {
     margin-top: 10px;
     /* background-color: hsla(210, 51%, 61%, 0.7); */
-    background-color: rgb(79, 154, 252);
+    /* background-color: rgb(79, 154, 252);
+    margin-right: 0px; */
+    /* margin-left: 100px; */
+    /* border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 230px;
+    padding-right: 200px; */
+    /* border: #000 5px solid; */
+
+
+    background-color: #1f0b03;
     margin-right: 0px;
     /* margin-left: 100px; */
     border-radius: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 230px;
+    padding-left: 200px;
     padding-right: 200px;
-    /* border: #000 5px solid; */
-
+    border: #BDB76B 5px solid;
 
 }
 
@@ -152,7 +162,7 @@ a:hover,a.active{
 @media (max-width: 1250px){
     .container {
         padding-left: 2vh;
-        margin-left: 230px;
+        /* margin-left: 230px; */
     }
     .logo {
         left: 50px;
@@ -160,7 +170,7 @@ a:hover,a.active{
     .navbar {
         margin-top: 10px;
         /* background-color: hsla(210, 51%, 61%, 0.7); */
-        background-color: rgb(79, 154, 252);
+        /* background-color: rgb(79, 154, 252); */
         margin-right: 0px;
         /* margin-left: 100px; */
         border-radius: 20px;
@@ -234,8 +244,9 @@ a:hover,a.active{
     text-align: center;
     justify-content: center;
     align-items: center;
-    /* padding-bottom: 250px; */
-    background: url(Baground_BSN.jpg);
+    padding-bottom: 200px;
+    /* background: url(Baground_BSN.jpg); */
+    background: url(Tech\ Wallpaper\ 4K\ For\ Pc\ Trick.jpg);
     background-size: cover;
     padding-top: 60px;
     margin-top: -55px;
@@ -255,6 +266,7 @@ a:hover,a.active{
     padding-bottom: 150px;
     padding-top: 100px;
     word-spacing: 2px;
+    /* border: #fff 5px solid; */
     
 }
   
@@ -266,8 +278,15 @@ a:hover,a.active{
     color: #000;
     border-radius: 5px;
     padding: 12px 20px;
+    padding: 15px 30px 15px 30px;
+
+    /* padding-left: 20px;
+    padding-right: 20px; */
+
     text-decoration: none;
     margin-top: 80px;
+    /* border: #fff 5px solid; */
+
 }
 .button a:hover{
     color: #2b4bff;
@@ -281,6 +300,7 @@ a:hover,a.active{
     align-items: center;
     display: inline-block;
     font-size: 20px;
+    color: #fff;
 }
 .visi {
     padding-left: 20px;
@@ -309,10 +329,13 @@ a:hover,a.active{
 }
 .paragraf h1 {
     text-align: center;
+    color: #fff;
     /* border: #000 2px solid; */
 }
 .paragraf p {
     text-align: center;
+    color: #fff;
+    padding-left: 5px;
     /* background-color: hsla(210, 81%, 71%, 0.5); */
 }
 .gambar img{
@@ -320,21 +343,25 @@ a:hover,a.active{
 }
 
 .cont1 {
-    background: #84dbfdad;
+    background: #00376bd7;
     padding-bottom: 20px;
     border-radius: 10px;
     border: #000 3px solid;
 }
 
 .cont2 {
-    background: #84dbfdad;
+    background: #00376bd7;
+    /* background: #3d1e00ad; */
+    /* background: #84dbfdad; */
     padding-bottom: 20px;
     border-radius: 10px;
     border: #000 3px solid;
 }
 
 .cont3 {
-    background: #84dbfdad;
+    background: #00376bd7;
+    /* background: #3d1e00ad; */
+    /* background: #84dbfdad; */
     padding-bottom: 20px;
     border-radius: 10px;
     border: #000 3px solid;

@@ -3,62 +3,121 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="Logo-BSN-removebg-preview.png">
   <title>Struktur Organisasi</title>
   <link rel="stylesheet" href="structure.css">
+  <script src="https://kit.fontawesome.com/30e18e6c5b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
+  <header>
+    <div class="containers">
+        <div class="pojok">
+            <button class="toggle-btn" onclick="toggleSidebar()">☰</button>
+        </div>
+    </div>
+</header>
+
+
+<div class="homes">
+    <div class="container">
+        <div class="hidden-element"></div>
+        <div class="logo"><img src="Logo-BSN-removebg-preview.png" width="160px"></div>
+        <nav class="navbar">
+            <div class="content">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Why BSN ?</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="sidebar">
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
   <div class="org-chart">
     <ul>
       <li>
         <div class="person">
           <img src="manager1.png" alt="CEO">
-          <span class="name">CEO</span>
+          <span class="name">(Direktur)</span>
+                            <P>JENDRAL KHALID</P>
         </div>
         <ul>
           <li>
             <div class="person">
               <img src="manager1.png" alt="Manager 1">
-              <span class="name">Manager 1</span>
+              <span class="name">(Komisaris)</span>
+                              <P>M AINUL GHURRI</P>
             </div>
             <ul>
               <li>
                 <div class="person">
                   <img src="manager1.png" alt="Employee 1">
-                  <span class="name">Employee 1</span>
+                  <span class="name">(HRD Manager)</span>
+                                  <P>IRHAM WIDYANANDA</P>
                 </div>
               </li>
               <li>
                 <div class="person">
                   <img src="manager1.png" alt="Employee 2">
-                  <span class="name">Employee 2</span>
+                  <span class="name">(Marketing Manager)</span>
+                                    <P>DAFFA SUBAGJA</P>
                 </div>
               </li>
+              <!-- <li>
+                <div class="person">
+                  <img src="manager1.png" alt="Employee 2">
+                  <span class="name">(Finance Manager)</span>
+                  <p>SYOHRAYOLA</p>
+                </div>
+              </li> -->
             </ul>
           </li>
-          <!-- <li> -->
-            <!-- <div class="person">
-              <img src="manager1.png" alt="Manager 2">
-              <span class="name">Manager 2</span>
-            </div> -->
-            <!-- <ul>
-              <li>
-                <div class="person">
-                  <img src="manager1.png" alt="Employee 3">
-                  <span class="name">Employee 3</span>
-                </div>
-              </li>
-              <li>
-                <div class="person">
-                  <img src="manager1.png" alt="Employee 4">
-                  <span class="name">Employee 4</span>
-                </div>
-              </li>
-            </ul> -->
-          <!-- </li> -->
         </ul>
       </li>
     </ul>
   </div>
+  <footer class="contact">
+    <div class="container-container">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <div class="info">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Perum Puri Pamulang, Jl. Palem Blok C2, Nomor 9, Kelurahan
+            Pamulang Barat,, Kec. Pamulang, Kota Tangerang Selatan</p>
+        </div>
+        <div class="info">
+          <i class="fas fa-phone"></i>
+          <p>+62816 735 833</p>
+        </div>
+        <div class="info">
+          <i class="fas fa-envelope"></i>
+          <p> binakaryasinerginusantara@gmail.com</p>
+        </div>
+      </div>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
