@@ -58,7 +58,7 @@ body {
     /* border: #000 5px solid; */
 
 
-    background-color: #1f0b03;
+    background-color: #000000;
     margin-right: 0px;
     /* margin-left: 100px; */
     border-radius: 20px;
@@ -474,14 +474,14 @@ a:hover,a.active{
 
   }
   
-  .contact textarea {
+.contact textarea {
     height: 150px;
     width: 60%;
-    padding-left: 70px;
+    padding-left: 75px;
     /* margin-left: 70px; */
     background-color: #fca24e9d;
     border-radius: 5px;
-  }
+}
   
   .contact button {
     background-color: #007bff;
@@ -507,6 +507,18 @@ a:hover,a.active{
         margin-left: 0px;
       }
   }
+
+  @media (max-width: 1000px){
+    .contact textarea {
+        height: 150px;
+        width: 65%;
+        padding-left: 800px;
+        background-color: #fca24e9d;
+        border-radius: 5px;
+        padding: 0px;
+        margin-left: 0px;
+      }
+  } 
 /* .show {
     opacity: 1;
   }
