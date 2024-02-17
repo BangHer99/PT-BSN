@@ -17,7 +17,7 @@ body {
     
   }
   .homes {
-    padding-bottom: 20px;
+    padding-bottom: 180px;
     /* z-index: 99999; */
     background:url(banner-services.png);
     background-size: cover;
@@ -241,142 +241,30 @@ body {
     }
   }
   
-  
-  .container-contact {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .contact {
-    background: url(Contact-Person-2.png);
-    margin-top: 5px;
+.container-qualification{
+    padding-top: 50px;
+    background: url(banner-whyBsn.png);
     background-size: cover;
-    /* background-color: #f4f4f4; */
-    color: #fff;
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .contact h2 {
-    margin-bottom: 20px;
-    font-size: 28px;
-  }
-  
-  .contact input {
-    width: 70%;
-    /* height: 150px; */
-    /* width: 700px; */
-    margin-bottom: 20px;
-    padding: 10px;
-    /* border: 1px solid #ccc; */
-    border-radius: 5px;
-    background-color: #fca24e9d;
-  
-  }
-  
-  .contact textarea {
-    height: 150px;
-    width: 60%;
-    padding-left: 75px;
-    /* margin-left: 70px; */
-    background-color: #fca24e9d;
-    border-radius: 5px;
-  }
-  
-  .contact button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .contact button:hover {
-    background-color: #0056b3;
-  }
-  
-  @media (max-width: 535px){
-    .contact textarea {
-        height: 150px;
-        width: 50%;
-        background-color: #fca24e9d;
-        border-radius: 5px;
-        padding: 0px;
-        margin-left: 0px;
-      }
-  }
-.layanan {
-    margin-top: -25px;
-    margin-left: 10px;
-    width: 80%;
-    /* padding-bottom: 20px; */
-}
-.layanan h1{
-    padding-top: 200px;
-    color: #fff;
-    padding-bottom: 10px;
-}
-.layanan p {
-  color: #fff;
-  font-size: 20px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
 
-}
-.desc {
-    padding-top: 20px;
-    padding-bottom: 50px;
-    /* border: #000 5px solid; */
-    background: url(banner-services.png);
-    background-size: cover;
-}
-.desc h3 {
-    color: #fff;
-    margin-left: 20px;
-}
-.desc-container {
-    border: #fff 5px solid;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    background-color: aliceblue;
-    border-radius: 10px;
-    margin: 10px;
-}
-.desc-container h3{
-  color: #000;
-  text-align: justify;
-  margin-left: -3px;
-}
-.desc-container p {
-  width: 95%;
-}
-.desc-container img{
-    width: 250px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    /* margin-left: 50px; */
+    
 }
 
-/* @media (max-width: 1000px){
-  .desc-container{
-    flex-direction: column;
-  }
-} */
-@media (max-width: 1060px){
-  .desc-container{
+.job-seeker{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-  }
+    /* border: #fff 5px solid; */
+    background: #ffffff91;
+    border-radius: 10px;
+}
+.job-seeker h1{
+    padding-left: 10px;
+    font-size: 30px;
 }
 
-@media (max-width: 560px){
-    .desc-container{
-      display: grid;
-      grid-template-columns: repeat(1,1fr);
-    }
-  }
-html{
-    scroll-behavior: smooth;
+.job-seeker ul li{
+    color: #000;
+    font-size: 18px;
 }
