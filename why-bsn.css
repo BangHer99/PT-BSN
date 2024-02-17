@@ -20,7 +20,7 @@ body {
 .homes {
   padding-bottom: 2px;
   /* z-index: 99999; */
-  background:url(Banner-Structure.png);
+  background:url(banner-whyBsn.png);
   background-size: cover;
 
 }
@@ -168,7 +168,7 @@ a:hover,a.active{
   .navbar {
       margin-top: 10px;
       /* background-color: hsla(210, 51%, 61%, 0.7); */
-      background-color: rgb(79, 154, 252);
+      /* background-color: rgb(79, 154, 252); */
       margin-right: 0px;
       /* margin-left: 100px; */
       border-radius: 20px;
@@ -326,16 +326,6 @@ a:hover,a.active{
 }
 
 
-@media (max-width: 920px){
-    .about-us {
-        flex-direction: column;
-        align-items: flex-start;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-}
-
 .about-us{
     display: flex;
     justify-content: space-between;
@@ -348,6 +338,7 @@ a:hover,a.active{
     align-items: center;
     text-align: center;
     padding-top: 100px;
+    border: #333 3px solid;
 }
 
 .about-us p {
@@ -360,4 +351,13 @@ a:hover,a.active{
 .about-us img{
     max-width: 300px;
     border-radius: 10px;
+}
+@media (max-width: 920px){
+  .about-us {
+      flex-direction: column;
+      align-items: flex-start;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+  }
 }

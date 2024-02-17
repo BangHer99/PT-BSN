@@ -198,7 +198,7 @@ a:hover,a.active{
     .navbar {
         margin-top: 10px;
         /* background-color: hsla(210, 51%, 61%, 0.7); */
-        background-color: rgb(79, 154, 252);
+        /* background-color: rgb(79, 154, 252); */
         margin-right: 0px;
         /* margin-left: 100px; */
         border-radius: 20px;
@@ -212,6 +212,9 @@ a:hover,a.active{
     }
 }
 
+.respon-logo {
+    display: none;
+}
 
 @media (max-width: 1000px) {
     .navbar {
@@ -227,7 +230,15 @@ a:hover,a.active{
     #sidebar {
         left: -250px;
     }
-
+    .respon-logo{
+        display: flex;
+        /* position: absolute; */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        left: 30%;
+        
+    }
     .containers {
         display: flex;
         justify-content: end;
@@ -239,7 +250,18 @@ a:hover,a.active{
         color: #fff;
         /* display: none; */
     }
+.homes h2{
+    margin-top: -100px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: #FF9900;
+        /* color: rgb(255, 196, 69); */
+    text-shadow: #000 2px 2px 2px 2px;
+    }
+    
 }
+
+
 .homes {
     text-align: center;
     justify-content: center;
@@ -306,6 +328,7 @@ a:hover,a.active{
     padding-left: 20px;
 }
 .visimisi h1 {
+    font-size: 40px;
     text-align: justify;
     margin-left: 150px;
     margin-top: 100px;
@@ -397,48 +420,49 @@ a:hover,a.active{
     }
 }
 
-.interview {
-    /* border: #000 5px solid; */
-    display: flex;
-    justify-content: space-between;
-    /* opacity: 0; Atur opacity menjadi 0 agar awalnya elemen tidak terlihat */
-    /* transition: opacity 0.5s ease-in-out; Atur transisi untuk perubahan opacity */
-}
-.interview-img {
-    padding-top: 30px;
-    /* border: #000 5px solid; */
-    background-color: #e5e5e592;
-    /* transition: transform 0.5s ease-in-out; */
-}
 
-.interview-img p{
-    margin-left: 10px;
-    /* padding-top: 30px; */
-    /* border: #000 5px solid; */
-    /* background-color: #e5e5e592; */
-    /* transition: transform 0.5s ease-in-out; */
-}
-.interview-img img{
-    width: 200px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding-left: 10px;
-}
-
-.interview2 h1{
-
-    padding-top: 50px;
+.desc {
+    padding-top: 20px;
     padding-bottom: 50px;
-    text-align: center;
-
-}
-
-.inter {
+    /* border: #000 5px solid; */
     background: url(Sunset.png);
     background-size: cover;
-    padding-bottom: 50px;
-    /* padding-left: 10px; */
+}
+.desc h3 {
+    color: #fff;
+    margin-left: 20px;
+}
+.desc-container {
+    border: #e5e5e592 5px solid;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #e5e5e592;
+    padding-top: 20px;
+    /* background-color: aliceblue; */
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 20px;
+}
+.desc-container h3{
+  color: #000;
+  text-align: justify;
+  margin-left: -3px;
+}
+.desc-container p {
+  width: 95%;
+}
+.desc-container img{
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 50px; */
+}
+.services h2{
+ text-align: center;
+ font-size: 40px;
+ padding-bottom: 20px;
 }
 
 
@@ -475,12 +499,17 @@ a:hover,a.active{
   }
   
 .contact textarea {
-    height: 150px;
-    width: 60%;
-    padding-left: 75px;
+     height: 150px;
+    /*width: 70%;
+    padding-left: 75px; */
     /* margin-left: 70px; */
     background-color: #fca24e9d;
     border-radius: 5px;
+    width: 70%;
+    /* height: 150px; */
+    /* width: 700px; */
+    margin-bottom: 20px;
+    padding: 10px;
 }
   
   .contact button {
@@ -497,7 +526,7 @@ a:hover,a.active{
     background-color: #0056b3;
   }
 
-@media (max-width: 535px){
+/* @media (max-width: 535px){
     .contact textarea {
         height: 150px;
         width: 50%;
@@ -518,7 +547,7 @@ a:hover,a.active{
         padding: 0px;
         margin-left: 0px;
       }
-  } 
+  }  */
 /* .show {
     opacity: 1;
   }
@@ -526,3 +555,22 @@ a:hover,a.active{
 .slide-in {
     transform: translateY(19);
 } */
+
+
+
+@media (max-width: 1060px){
+  .desc-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (max-width: 560px){
+    .desc-container{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+html{
+    scroll-behavior: smooth;
+}
