@@ -22,7 +22,41 @@ function toggleSidebar() {
         sidebar.style.left = '-250px';
     }
 }
-
+document.addEventListener('DOMContentLoaded', function() {
+    jsPlumb.ready(function() {
+      var instance = jsPlumb.getInstance({
+        Endpoint: ["Dot", {radius: 2}],
+        Connector:"StateMachine",
+        HoverPaintStyle: {stroke: "#1e8151", strokeWidth: 2 },
+        ConnectionOverlays: [
+          ["Arrow", {
+            location: 1,
+            id: "arrow",
+            length: 14,
+            foldback: 0.8
+          }],
+          ["Label", { label: " ", id: "label", cssClass: "aLabel" }]
+        ],
+        Container: "flowchart"
+      });
+  
+      instance.registerConnectionType("basic", { anchor:"Continuous", connector:"StateMachine" });
+  
+      var windows = jsPlumb.getSelector(".statemachine-demo .w");
+  
+      instance.draggable(windows);
+  
+      instance.bind("connection", function (info) {
+        info.connection.getOverlay("label").setLabel(info.connection.id);
+      });
+  
+      instance.connect({ source: "window1", target: "window2", type:"basic" });
+      instance.connect({ source: "window1", target: "window3", type:"basic" });
+      instance.connect({ source: "window2", target: "window4", type:"basic" });
+      instance.connect({ source: "window3", target: "window4", type:"basic" });
+    });
+  });
+  
 
 // document.addEventListener("DOMContentLoaded", function() {
 //     var gallery = document.querySelector('.interview');
