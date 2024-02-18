@@ -258,7 +258,6 @@ a:hover,a.active{
 .contact {
   background: url(Contact-Person-2.png);
   margin-top: 5px;
-  background-size: cover;
   /* background-color: #f4f4f4; */
   color: #fff;
   padding: 50px 0;
@@ -283,12 +282,17 @@ a:hover,a.active{
 }
 
 .contact textarea {
-  height: 150px;
-  width: 60%;
-  padding-left: 75px;
+   height: 150px;
+  /*width: 70%;
+  padding-left: 75px; */
   /* margin-left: 70px; */
   background-color: #fca24e9d;
   border-radius: 5px;
+  width: 70%;
+  /* height: 150px; */
+  /* width: 700px; */
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 .contact button {
@@ -305,16 +309,7 @@ a:hover,a.active{
   background-color: #0056b3;
 }
 
-@media (max-width: 535px){
-  .contact textarea {
-      height: 150px;
-      width: 50%;
-      background-color: #fca24e9d;
-      border-radius: 5px;
-      padding: 0px;
-      margin-left: 0px;
-    }
-}
+
 /* .show {
   opacity: 1;
 }
@@ -338,22 +333,7 @@ a:hover,a.active{
     /* position: relative; */
   }
   
-  /* .org-chart li::before {
-    content: '';
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    width: 0;
-    height: 20px;
-    border-left: 1px solid #000;
-  }
-  
-  .org-chart ul ul li::before {
-    top: -10px;
-    height: 50px;
-    border-top: 1px solid #000;
-  } */
-  
+
   .person {
     display: inline-block;
     margin: 10px;

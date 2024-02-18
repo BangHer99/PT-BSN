@@ -526,35 +526,7 @@ a:hover,a.active{
     background-color: #0056b3;
   }
 
-/* @media (max-width: 535px){
-    .contact textarea {
-        height: 150px;
-        width: 50%;
-        background-color: #fca24e9d;
-        border-radius: 5px;
-        padding: 0px;
-        margin-left: 0px;
-      }
-  }
 
-  @media (max-width: 1000px){
-    .contact textarea {
-        height: 150px;
-        width: 65%;
-        padding-left: 800px;
-        background-color: #fca24e9d;
-        border-radius: 5px;
-        padding: 0px;
-        margin-left: 0px;
-      }
-  }  */
-/* .show {
-    opacity: 1;
-  }
-
-.slide-in {
-    transform: translateY(19);
-} */
 
 
 
