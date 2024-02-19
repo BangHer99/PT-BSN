@@ -23,7 +23,10 @@ body {
     background-size: cover;
   
   }
-  
+  .respon-logo {
+    display: none;
+}
+
   
   .containers {
     display: flex;
@@ -167,7 +170,7 @@ body {
     .navbar {
         margin-top: 10px;
         /* background-color: hsla(210, 51%, 61%, 0.7); */
-        background-color: rgb(79, 154, 252);
+        /* background-color: rgb(79, 154, 252); */
         margin-right: 0px;
         /* margin-left: 100px; */
         border-radius: 20px;
@@ -195,7 +198,7 @@ body {
     .navbar {
         margin-top: 10px;
         /* background-color: hsla(210, 51%, 61%, 0.7); */
-        background-color: rgb(79, 154, 252);
+        /* background-color: rgb(79, 154, 252); */
         margin-right: 0px;
         /* margin-left: 100px; */
         border-radius: 20px;
@@ -220,7 +223,15 @@ body {
     .toggle-btn {
         display: block;
     }
-  
+    .respon-logo{
+      display: flex;
+      /* position: absolute; */
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      left: 30%;
+      
+  }
     #sidebar {
         left: -250px;
     }
@@ -268,9 +279,17 @@ body {
     color: #000;
     font-size: 18px;
 }
+.org-chart {
+  background: url(career-bg2.png);
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .org-chart h1{
   text-align: center;
   padding-bottom: 50px;
+  /* color: #fff; */
+  font-size: 40px;
 }
 .org-chart ul {
   padding: 0;
@@ -343,7 +362,8 @@ body {
   margin: 10px;
   background-color: #0000ff;
   border: #000 5px solid;
-  /* color: #fff; */
+  color: #fff;
+  font-weight: bolder;
   /* border: #ca0c0c 5px solid; */
   text-align: center;
   align-items: center;
@@ -419,7 +439,11 @@ body {
     display: grid;
     grid-template-columns: repeat(1,1fr);
   }
-  .job-seeker .arrow-down {
+  /* .org-chart {
+    background: url(Interview.jpg);
+    background-size: cover;
+  } */
+  /* .job-seeker .arrow-down { */
     /* display: flex;
     text-align: justify; */
     /* margin-left: 200px; */
@@ -427,11 +451,12 @@ body {
     /* border: #fff 5px solid; */
     /* background: #ffffff91;
     border-radius: 10px; */
-  }
+  /* } */
   .org-chart li {
     margin: 10px 0;
     position: static;
   }
+ 
 
   .org-chart li::before {
     display: none;
