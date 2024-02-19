@@ -24,7 +24,9 @@ body {
   background-size: cover;
 
 }
-
+.respon-logo {
+  display: none;
+}
 
 .containers {
   display: flex;
@@ -218,6 +220,15 @@ a:hover,a.active{
   .logo {
       display: none;
   }
+  .respon-logo{
+    display: flex;
+    /* position: absolute; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 30%;
+    
+}
   .toggle-btn {
       display: block;
   }
@@ -365,4 +376,8 @@ a:hover,a.active{
       justify-content: center;
       text-align: center;
   }
+}
+
+html{
+  scroll-behavior: smooth;
 }

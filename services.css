@@ -23,6 +23,15 @@ body {
     background-size: cover;
   
   }
+  .respon-logo{
+    display: none;
+    /* position: absolute; */
+    /* align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 30%; */
+    
+}
   
   
   .containers {
@@ -213,6 +222,15 @@ body {
   @media (max-width: 1000px) {
     .navbar {
         display: none;
+    }
+    .respon-logo{
+      display: flex;
+      /* position: absolute; */
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      left: 30%;
+      
     }
     .logo {
         display: none;
