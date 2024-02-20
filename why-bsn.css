@@ -322,6 +322,7 @@ a:hover,a.active{
     padding-top: 170px;
     color: #fff;
     margin-left: 5vh;
+    /* text-shadow: 2px 2px #ff0000 */
 }
 .desc p {
     /* padding-top: 170px; */
@@ -329,16 +330,6 @@ a:hover,a.active{
     margin-left: 5vh;
     width: 60%;
     font-size: 18px;
-}
-@media (max-width: 535px){
-  .contact textarea {
-      height: 150px;
-      width: 50%;
-      background-color: #fca24e9d;
-      border-radius: 5px;
-      padding: 0px;
-      margin-left: 0px;
-    }
 }
 
 

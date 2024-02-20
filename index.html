@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
 
 
@@ -32,7 +33,7 @@
         </div>
        </div>
         <div class="container">
-            <div class="hidden-element"></div>
+            <div class="hidden-element" id="hidden-element"></div>
             <div class="logo"><img src="Logo-BSN-removebg-preview.png" width="160px"></div>
             <nav class="navbar">
                 <div class="content">
@@ -46,19 +47,21 @@
                 </div>
             </nav>
         </div>
+        <div id="toggle"></div>
         <div id="sidebar">
-            <nav class="sidebar-nav">
+            <nav class="sidebar-nav" id="sidebarNav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#visi&misi">About</a></li>
                     <li><a href="why-bsn.html">Why BSN ?</a></li>
-                    <li><a href="structure.html">Teams</a></li>
+                    <li><a href="#visi&misi">About</a></li>
                     <li><a href="services.html">Services</a></li>
+                    <li><a href="structure.html">Teams</a></li>
                     <li><a href="#contacts">Contact</a></li>
                 </ul>
             </nav>
         </div>
-        <h2>PT. BINAKARYA SINERGI NUSANTARA</h2>
+        <section data-aos="fade-in" data-aos-duration="2500">
+        <h2>PT. BINAKARYA SINERGI NUSANTARA</h2></section>
         <p>Sejalan dengan perkembangan bisnis, PT. Binakarya
             Sinergi Nusantara resmi berdiri di bulan Agustus 2023
             untuk memberikan pelayanan yang lebih profesional</p>
@@ -67,16 +70,16 @@
             <a href="services.html">SERVICES</a>
     </div>
 </div>
-<div class="visimisi" id="visi&misi">
+<div class="visimisi" id="visi&misi" data-aos="zoom-in" data-aos-duration="2500">
     <h1>VISI & MISI</h1>
 </div>
 <div class="visi">
     <div class="misi">
-        <div class="gambar">
+        <div class="gambar" data-aos="slide-up" data-aos-duration="2500">
             <img src="iconvisimisi.png">
         </div>
         <div class="paragraf">
-            <div class="cont1">
+            <div class="cont1" data-aos="slide-left" data-aos-duration="2500">
             <h1 class="visi1">Visi</h1>
             <p class="visi2">PT Binakarya Sinergi Nusantara akan menjadi
                 mitra terpercaya dalam menyediakan solusi
@@ -84,7 +87,7 @@
                 di seluruh Indonesia.</p>
             </div>
             <br>
-            <div class="cont2">
+            <div class="cont2" data-aos="slide-right" data-aos-duration="2500">
             <h1 class="misi1">Misi</h1>
             <p class="misi2">PT Binakarya Sinergi Nusantara akan memberikan
                 layanan outsourcing yang terbaik dengan
@@ -98,7 +101,7 @@
                 </p>
             </div>
             <br>
-            <div class="cont3">
+            <div class="cont3"data-aos="slide-left" data-aos-duration="2500">
             <h1 class="strategy">Strategy</h1>
             <p class="strategy2">Terus meningkatkan kemampuan individu dan team serta selalu belajar dari pengalaman agar Menjadi lebih Ahli</p>
         </div>
@@ -176,6 +179,10 @@
       <button type="submit">Send</button>
     </div>
   </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
     <script src="./script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
