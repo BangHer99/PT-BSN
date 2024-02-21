@@ -6,6 +6,7 @@ body {
   .container {
     display: flex;
     position: fixed;
+    z-index: 999;
     text-align: center;
     /* justify-content: space-between; */
     justify-content: center;
