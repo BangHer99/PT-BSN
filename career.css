@@ -19,7 +19,7 @@ body {
   .homes {
     padding-bottom: 180px;
     /* z-index: 99999; */
-    background:url(banner-services.png);
+    background:url(bg-service.png);
     background-size: cover;
   
   }
@@ -55,15 +55,12 @@ body {
   }
   .navbar {
     margin-top: 10px;
-    /* background-color: hsla(210, 51%, 61%, 0.7); */
-    /* background-color: rgb(79, 154, 252); */
-    background-color: #000000;
+    background-color: #1E2454;
     margin-right: 0px;
-    /* margin-left: 100px; */
     border-radius: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 230px;
+    padding-left: 200px;
     padding-right: 200px;
     border: #BDB76B 5px solid;
   
@@ -105,14 +102,17 @@ body {
     top: 0;
     left: -250px;
     width: 250px;
+    z-index: 9999;
     height: 100%;
-    background-color: #333;
-    transition: 0.3s;
+    background-color: #070302;
+
+    transition: 0.5s;
   }
   
-  .sidebar-nav ul {
+  .sidebar-nav ul { 
     list-style-type: none;
     padding: 0;
+    padding-top: 20px;
   }
   
   .sidebar-nav ul li a {
@@ -120,6 +120,8 @@ body {
     padding: 10px;
     color: #fff;
     text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 50px;
   }
   
   .toggle-btn {
@@ -254,8 +256,9 @@ body {
   
 .container-qualification{
     padding-top: 50px;
-    background: url(banner-whyBsn.png);
+    background: url(Banner-WHY-BSN.png);
     background-size: cover;
+    margin-top: 20px;
     padding-bottom: 100px;
     padding-left: 10px;
     padding-right: 10px;
@@ -431,6 +434,8 @@ body {
     transform: scale(1.1);
   }
 }
+
+
 @media only screen and (max-width: 600px) {
   .org-chart ul {
     flex-direction: column;
@@ -463,6 +468,42 @@ body {
   }
 }
 
+.container-line-of-business{
+  padding-top: 80px;
+  /* border: #0000ff 5px solid; */
+  padding-bottom: 80px;
+  background: url(Bg-homes-services.png);
+}
+.container-line-of-business h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  text-shadow: #000 2px 2px 2px;
+}
+
+.line{
+  border: #434a89be 5px solid;
+  /* background-color: #53a3ff; */
+  padding-left: 20px;
+}
+.line-of-business {
+  padding-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20px;
+  /* color: #000;
+  border: #000 5px solid; */
+  background-color: #ffffff96;
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  /* text-align: justify; */
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.line p {
+  font-size: 25px;
+}
 .container-contact {
   max-width: 960px;
   margin: 0 auto;
@@ -470,7 +511,7 @@ body {
 }
 
 .contact {
-  background: url(Contact-Person-2.png);
+  background: url(bg-Contact.png);
   margin-top: 5px;
   /* background-color: #f4f4f4; */
   color: #fff;
@@ -538,6 +579,24 @@ body {
   .desc-container{
     display: grid;
     grid-template-columns: repeat(1,1fr);
+  }
+}
+
+@media (max-width: 860px){
+  .line-of-business {
+    /* padding-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px; */
+    /* color: #000;
+    border: #000 5px solid; */
+    background-color: #ffffff96;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* text-align: justify; */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
   }
 }
 html{
