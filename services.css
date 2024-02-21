@@ -19,7 +19,7 @@ body {
   .homes {
     padding-bottom: 20px;
     /* z-index: 99999; */
-    background:url(banner-services.png);
+    background:url(bg-service.png);
     background-size: cover;
   
   }
@@ -63,7 +63,8 @@ body {
     margin-top: 10px;
     /* background-color: hsla(210, 51%, 61%, 0.7); */
     /* background-color: rgb(79, 154, 252); */
-    background-color: #000000;
+    background-color: #1E2454;
+    /* background-color: #000000; */
     margin-right: 0px;
     /* margin-left: 100px; */
     border-radius: 20px;
@@ -176,7 +177,7 @@ body {
     .navbar {
         margin-top: 10px;
         /* background-color: hsla(210, 51%, 61%, 0.7); */
-        background-color: rgb(79, 154, 252);
+        /* background-color: rgb(79, 154, 252); */
         margin-right: 0px;
         /* margin-left: 100px; */
         border-radius: 20px;
@@ -204,7 +205,7 @@ body {
     .navbar {
         margin-top: 10px;
         /* background-color: hsla(210, 51%, 61%, 0.7); */
-        background-color: rgb(79, 154, 252);
+        /* background-color: rgb(79, 154, 252); */
         margin-right: 0px;
         /* margin-left: 100px; */
         border-radius: 20px;
@@ -253,7 +254,6 @@ body {
         /* justify-content: center; */
         align-items: center;
         /* padding: 10px; */
-        /* background: url(Baground_BSN.jpg); */
         color: #fff;
         /* display: none; */
     }
@@ -266,7 +266,7 @@ body {
   }
   
   .contact {
-    background: url(Contact-Person-2.png);
+    background: url(bg-Contact.png);
     margin-top: 5px;
     /* background-color: #f4f4f4; */
     color: #fff;
@@ -340,7 +340,7 @@ body {
     padding-top: 20px;
     padding-bottom: 50px;
     /* border: #000 5px solid; */
-    background: url(banner-services.png);
+    background: url(bg-service.png);
     background-size: cover;
 }
 .desc h3 {

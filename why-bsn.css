@@ -20,7 +20,7 @@ body {
 .homes {
   padding-bottom: 2px;
   /* z-index: 99999; */
-  background:url(banner-whyBsn.png);
+  background:url(Banner-WHY-BSN.png);
   background-size: cover;
 
 }
@@ -57,7 +57,8 @@ body {
   margin-top: 10px;
   /* background-color: hsla(210, 51%, 61%, 0.7); */
   /* background-color: rgb(79, 154, 252); */
-  background-color: #000000;
+    background-color: #1E2454;
+    /* background-color: #000000; */
   margin-right: 0px;
   /* margin-left: 100px; */
   border-radius: 20px;
@@ -261,7 +262,7 @@ a:hover,a.active{
 }
 
 .contact {
-  background: url(Contact-Person-2.png);
+  background: url(bg-Contact.png);
   margin-top: 5px;
   /* background-color: #f4f4f4; */
   color: #fff;
@@ -339,13 +340,15 @@ a:hover,a.active{
     margin-left: 2vh;
     margin-right: 2vh;
     /* border: #fff 5px solid; */
-    background-color: #bdb76b75;
+    /* background-color: #bdb76b75; */
+    background-color: #abadb68a;
+
     border-radius: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-top: 100px;
-    border: #333 3px solid;
+    /* border: #333 3px solid; */
 }
 
 .about-us p {
