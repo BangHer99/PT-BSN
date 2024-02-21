@@ -5,31 +5,19 @@ body {
 
 /* INI NAVBAR */
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
 .container {
   display: flex;
   position: fixed;
   text-align: center;
-  /* justify-content: space-between; */
   justify-content: center;
   align-items: center;
   padding: 10px;
-  /* background-color: #333; */
   color: #fff;
   margin-left: 25vh;
+  z-index: 999;
   
 }
-.homes {
-  padding-bottom: 200px;
-  /* z-index: 99999; */
-  background:url(Banner-Structure.png);
-  background-size: cover;
 
-}
 .respon-logo {
   display: none;
 }
@@ -61,26 +49,19 @@ body {
 }
 .navbar {
   margin-top: 10px;
-  /* background-color: hsla(210, 51%, 61%, 0.7); */
-  /* background-color: rgb(79, 154, 252); */
-    background-color: #191e47;
-    /* background-color: #000000; */
+  background-color: #1E2454;
   margin-right: 0px;
-  /* margin-left: 100px; */
   border-radius: 20px;
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 230px;
+  padding-left: 200px;
   padding-right: 200px;
   border: #BDB76B 5px solid;
-
 
 }
 
 .navbar ul li {
   display: inline;
-  /* border: #333 5px solid; */
-  /* word-spacing: 20px; */
 }
 
 .navbar ul li a {
@@ -90,7 +71,6 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  /* border: #ff2828 5px solid; */
 }
 
 .navbar ul li a:hover{
@@ -112,14 +92,17 @@ a:hover,a.active{
   top: 0;
   left: -250px;
   width: 250px;
+  z-index: 9999;
   height: 100%;
-  background-color: #333;
-  transition: 0.3s;
+  background-color: #070302;
+
+  transition: 0.5s;
 }
 
 .sidebar-nav ul {
   list-style-type: none;
   padding: 0;
+  padding-top: 20px;
 }
 
 .sidebar-nav ul li a {
@@ -127,6 +110,8 @@ a:hover,a.active{
   padding: 10px;
   color: #fff;
   text-decoration: none;
+  font-size: 20px;
+  padding-bottom: 50px;
 }
 
 .toggle-btn {
@@ -136,6 +121,13 @@ a:hover,a.active{
   border: none;
   color: #fff;
   cursor: pointer;
+}
+.homes {
+  padding-bottom: 200px;
+  /* z-index: 99999; */
+  background:url(Banner-Structure.png);
+  background-size: cover;
+
 }
 @media screen and (max-width: 1660px){
   .container {
@@ -177,7 +169,7 @@ a:hover,a.active{
   .navbar {
       margin-top: 10px;
       /* background-color: hsla(210, 51%, 61%, 0.7); */
-      background-color: rgb(79, 154, 252);
+      /* background-color: rgb(79, 154, 252); */
       margin-right: 0px;
       /* margin-left: 100px; */
       border-radius: 20px;
@@ -205,7 +197,7 @@ a:hover,a.active{
   .navbar {
       margin-top: 10px;
       /* background-color: hsla(210, 51%, 61%, 0.7); */
-      background-color: rgb(79, 154, 252);
+      /* background-color: rgb(79, 154, 252); */
       margin-right: 0px;
       /* margin-left: 100px; */
       border-radius: 20px;
@@ -229,7 +221,6 @@ a:hover,a.active{
   }
   .respon-logo{
     display: flex;
-    /* position: absolute; */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -337,7 +328,7 @@ a:hover,a.active{
 /* INI STRUKTUR */
 .org-chart ul {
     padding: 0;
-    margin: 20px;
+    /* margin: 20px; */
     display: flex;
     justify-content: center;
     /* padding-top: ; */
@@ -374,7 +365,12 @@ a:hover,a.active{
   .person:hover img {
     animation: pulse 0.5s infinite alternate;
   }
-  
+  .name {
+    font-weight: 700;
+  }
+  .person p{
+    font-weight: 800;
+  }
   @keyframes pulse {
     0% {
       transform: scale(1);
@@ -395,6 +391,10 @@ a:hover,a.active{
   
     .org-chart li::before {
       display: none;
+    }
+    .org-chart img{
+      width: 100px;
+      height: 100px;
     }
   }
 
