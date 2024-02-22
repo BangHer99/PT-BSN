@@ -265,7 +265,6 @@ body {
   .contact {
     background: url(bg-Contact.png);
     margin-top: 5px;
-    /* background-color: #f4f4f4; */
     color: #fff;
     padding: 50px 0;
     text-align: center;
@@ -273,16 +272,22 @@ body {
   
   .contact h2 {
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 50px;
+  }
+  .info i {
+    font-size: 30px;
+  }
+  .contact p {
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
   
   .contact input {
     width: 70%;
-    /* height: 150px; */
-    /* width: 700px; */
     margin-bottom: 20px;
     padding: 10px;
-    /* border: 1px solid #ccc; */
     border-radius: 5px;
     background-color: #fca24e9d;
   
@@ -290,14 +295,9 @@ body {
   
   .contact textarea {
      height: 150px;
-    /*width: 70%;
-    padding-left: 75px; */
-    /* margin-left: 70px; */
     background-color: #fca24e9d;
     border-radius: 5px;
     width: 70%;
-    /* height: 150px; */
-    /* width: 700px; */
     margin-bottom: 20px;
     padding: 10px;
   }
@@ -315,6 +315,8 @@ body {
   .contact button:hover {
     background-color: #0056b3;
   }
+  
+  
   
   
 .layanan {
